@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, #EF476F, #FFD166, #06D6A0, #118AB2, #073B4C);
+}
+
+.heading1{
+    background-color: goldenrod;
+    border:4px dashed black;
+    border-radius: 20px;
+    font-family: 'Young Serif', serif;
+    text-align: center;
+    text-decoration: wavy;
+    font-size:3rem;
+    margin:5px auto 7px;
+    padding:3px;
+    box-sizing:border-box;
+}
+.heading2{
+    font-style:italic;
+    font-family: 'Young Serif', serif;
+    border:2px dashed black;
+    padding:3px;
+    border-radius:20px;
+    width:50%;
+    margin:5px auto 7px;
+    background-color: chartreuse;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+p{
+    text-align: center;
+    font-size:1.5rem;
+    border:3px dotted black;
+    border-radius:20px;
+    margin:7px auto;
+    padding:5px;
+    background: blueviolet;
+    color:silver;
+    font-style:oblique;
+}
+.ending{
+    color:black;
+    text-align:justify;
+    width:35%;
+    margin: 5px;
+    padding:3px;
+    background-color:chocolate;
+    border:3px solid red;
+    font-style:italic;
+    font-family:'Young Serif', serif;
+}
+a{
+    text-decoration: wavy;
+    border:1px dotted black;
+    margin:3px;
+    padding:3px;
+}
